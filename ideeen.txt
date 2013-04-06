@@ -1,0 +1,7 @@
+TetherRemote Pro
+================
+
+ * Wifi config meesturen (key, id, alg, etc...)
+ * Automatisch uitzetten bij uitzetten app.
+ * Widget
+ * Automatisch connecten met netwerk na ENABLED

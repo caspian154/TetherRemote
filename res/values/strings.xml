@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">TetherRemote</string>
+	
+	<string name="clientserver_preferences">General settings</string>
+	<string name="client_or_server">Mode</string>
+	<string name="client_or_server_summary">Select client or server mode. Current mode is %s</string>
+	<string-array name="client_or_server_entries">
+		<item>Client</item>
+		<item>Server</item>
+	</string-array>
+
+	<string name="client_preferences">Client settings</string>
+	<string name="selected_server">Select server</string>
+	<string name="selected_server_summary">Select a server to use for tethering. Current server is %s</string>
+	<string name="none">none</string>
+	
+	<string name="enable_wifi_tether">Activate remote hotspot</string>
+	<string name="enable_wifi_tether_summary">Enable the hotspot on the selected server</string>
+	
+	<string name="server_preferences">Server settings</string>
+	<string name="enable_auto_start">Auto start server</string>
+	<string name="enable_auto_start_summary">Automatic start the server at boot time</string>	
+	
+	<string name="started">Tethering started on remote device</string>
+	<string name="stopped">Tethering stopped on remote device</string>
+	<string name="failed">Failed to send command to remote device</string>
+	
+	<string name="please_wait">Please wait...</string>
+	<string name="server_started">TetherRemote server started</string>
+	<string name="server_stopped">TetherRemote server stopped</string>
+
+</resources>

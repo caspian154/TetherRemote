@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="@string/clientserver_preferences">
+		<ListPreference
+			android:key="client_or_server"
+			android:title="@string/client_or_server"
+			android:summary="@string/client_or_server_summary"
+			android:entries="@array/client_or_server_entries"
+			android:dialogTitle="@string/client_or_server" />
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/client_preferences">
+		<ListPreference
+			android:key="selected_server"
+			android:enabled="false"
+			android:title="@string/selected_server"
+			android:summary="@string/selected_server_summary"
+			android:dialogTitle="@string/selected_server" />
+		<CheckBoxPreference
+			android:key="enable_wifi_tether"
+			android:enabled="false"
+			android:title="@string/enable_wifi_tether"
+			android:summary="@string/enable_wifi_tether_summary" />
+	</PreferenceCategory>
+
+	<nl.timstegeman.tetherremote.admob.AdmobPreference />
+	
+</PreferenceScreen>
